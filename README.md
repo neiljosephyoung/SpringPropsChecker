@@ -5,18 +5,18 @@ Missing keys are highlighted in the console, helping prevent runtime misconfigur
 
 # Usage
 ```
-<plugin>
-					<groupId>com.ny</groupId>
-					<artifactId>property-checker-maven-plugin</artifactId>
-					<version>1.0.0</version>
-					<executions>
-						<execution>
-							<id>check-properties</id>
-							<phase>validate</phase>
-							<goals>
-								<goal>check</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
+		<plugin>
+			<groupId>com.ny</groupId>
+			<artifactId>property-checker-maven-plugin</artifactId>
+			<version>1.0.0</version>
+			<executions>
+				<execution>
+					<id>check-properties</id>
+					<phase>validate</phase>
+					<goals>
+						<goal>check</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
 ```
